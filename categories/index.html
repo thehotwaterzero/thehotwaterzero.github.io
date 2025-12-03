@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>分类 - Hexo</title>
+  
+  <!-- Meta Tags -->
+  <meta name="description" content="">
+  <meta name="author" content="linmu">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico">
+  
+  <!-- Stylesheets -->
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body class="categories-page">
+  <!-- Header -->
+  
+<header class="site-header">
+  <div class="container">
+    <div class="header-content">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="/">
+          <span class="logo-text">Hexo</span>
+        </a>
+      </div>
+      
+      <!-- Navigation -->
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="/">首页</a></li>
+          <li><a href="/archives" class="">归档</a></li>
+          
+            <li><a href="/about">关于</a></li>
+          
+            <li><a href="/categories">分类</a></li>
+          
+            <li><a href="/tags">标签</a></li>
+          
+        </ul>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+  
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+  <div class="categories-page">
+    <header class="page-header">
+      <h1 class="page-title">分类</h1>
+      <p class="post-count">共 8 个分类</p>
+    </header>
+    
+    <!-- 切换视图按钮 -->
+    <div class="view-toggle">
+      <button class="toggle-btn active" data-view="tree">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="8" y1="6" x2="21" y2="6"></line>
+          <line x1="8" y1="12" x2="21" y2="12"></line>
+          <line x1="8" y1="18" x2="21" y2="18"></line>
+          <line x1="3" y1="6" x2="3.01" y2="6"></line>
+          <line x1="3" y1="12" x2="3.01" y2="12"></line>
+          <line x1="3" y1="18" x2="3.01" y2="18"></line>
+        </svg>
+        树状视图
+      </button>
+      <button class="toggle-btn" data-view="grid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
+        </svg>
+        卡片视图
+      </button>
+    </div>
+    
+    <!-- 树状视图 -->
+    <div class="categories-tree-view active">
+      
+            <div class="tree-item" data-level="0" style="padding-left: 0px;">
+              <div class="tree-item-header">
+                
+                  <span class="tree-spacer"></span>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <a href="/categories/test/" class="tree-item-name">
+                    test
+                  </a>
+                
+                
+                <span class="tree-item-count">
+                  1 篇
+                </span>
+              </div>
+              
+              
+            </div>
+      
+            <div class="tree-item" data-level="0" style="padding-left: 0px;">
+              <div class="tree-item-header">
+                
+                  <button class="tree-toggle" aria-label="Toggle">
+                    <svg class="icon-expand" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </button>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" class="tree-item-name">
+                    技术
+                  </a>
+                
+                
+                <span class="tree-item-count">
+                  7 篇
+                </span>
+              </div>
+              
+              
+                <div class="tree-children">
+                  
+            <div class="tree-item" data-level="1" style="padding-left: 40px;">
+              <div class="tree-item-header">
+                
+                  <button class="tree-toggle" aria-label="Toggle">
+                    <svg class="icon-expand" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </button>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <span class="tree-item-name">前端</span>
+                
+                
+                <span class="tree-item-count">
+                  2 篇
+                </span>
+              </div>
+              
+              
+                <div class="tree-children">
+                  
+            <div class="tree-item" data-level="2" style="padding-left: 80px;">
+              <div class="tree-item-header">
+                
+                  <span class="tree-spacer"></span>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <a href="/categories/%E6%8A%80%E6%9C%AF-%E5%89%8D%E7%AB%AF-React/" class="tree-item-name">
+                    React
+                  </a>
+                
+                
+                <span class="tree-item-count">
+                  1 篇
+                </span>
+              </div>
+              
+              
+            </div>
+      
+            <div class="tree-item" data-level="2" style="padding-left: 80px;">
+              <div class="tree-item-header">
+                
+                  <span class="tree-spacer"></span>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <a href="/categories/%E6%8A%80%E6%9C%AF-%E5%89%8D%E7%AB%AF-Vue/" class="tree-item-name">
+                    Vue
+                  </a>
+                
+                
+                <span class="tree-item-count">
+                  1 篇
+                </span>
+              </div>
+              
+              
+            </div>
+      
+                </div>
+              
+            </div>
+      
+            <div class="tree-item" data-level="1" style="padding-left: 40px;">
+              <div class="tree-item-header">
+                
+                  <button class="tree-toggle" aria-label="Toggle">
+                    <svg class="icon-expand" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </button>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <span class="tree-item-name">后端</span>
+                
+                
+                <span class="tree-item-count">
+                  2 篇
+                </span>
+              </div>
+              
+              
+                <div class="tree-children">
+                  
+            <div class="tree-item" data-level="2" style="padding-left: 80px;">
+              <div class="tree-item-header">
+                
+                  <span class="tree-spacer"></span>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <a href="/categories/%E6%8A%80%E6%9C%AF-%E5%90%8E%E7%AB%AF-Node-js/" class="tree-item-name">
+                    Node.js
+                  </a>
+                
+                
+                <span class="tree-item-count">
+                  1 篇
+                </span>
+              </div>
+              
+              
+            </div>
+      
+            <div class="tree-item" data-level="2" style="padding-left: 80px;">
+              <div class="tree-item-header">
+                
+                  <span class="tree-spacer"></span>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <a href="/categories/%E6%8A%80%E6%9C%AF-%E5%90%8E%E7%AB%AF-Python/" class="tree-item-name">
+                    Python
+                  </a>
+                
+                
+                <span class="tree-item-count">
+                  1 篇
+                </span>
+              </div>
+              
+              
+            </div>
+      
+                </div>
+              
+            </div>
+      
+            <div class="tree-item" data-level="1" style="padding-left: 40px;">
+              <div class="tree-item-header">
+                
+                  <button class="tree-toggle" aria-label="Toggle">
+                    <svg class="icon-expand" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </button>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <span class="tree-item-name">运维</span>
+                
+                
+                <span class="tree-item-count">
+                  1 篇
+                </span>
+              </div>
+              
+              
+                <div class="tree-children">
+                  
+            <div class="tree-item" data-level="2" style="padding-left: 80px;">
+              <div class="tree-item-header">
+                
+                  <span class="tree-spacer"></span>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <a href="/categories/%E6%8A%80%E6%9C%AF-%E8%BF%90%E7%BB%B4-Docker/" class="tree-item-name">
+                    Docker
+                  </a>
+                
+                
+                <span class="tree-item-count">
+                  1 篇
+                </span>
+              </div>
+              
+              
+            </div>
+      
+                </div>
+              
+            </div>
+      
+                </div>
+              
+            </div>
+      
+            <div class="tree-item" data-level="0" style="padding-left: 0px;">
+              <div class="tree-item-header">
+                
+                  <span class="tree-spacer"></span>
+                
+                
+                <div class="tree-item-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                
+                
+                  <a href="/categories/%E7%94%9F%E6%B4%BB/" class="tree-item-name">
+                    生活
+                  </a>
+                
+                
+                <span class="tree-item-count">
+                  1 篇
+                </span>
+              </div>
+              
+              
+            </div>
+      
+    </div>
+    
+    <!-- 卡片视图 -->
+    <div class="categories-grid-view">
+      
+        <a href="/categories/test/" class="category-card">
+          <div class="category-card-content">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="category-card-title">test</h3>
+            <div class="category-card-stats">
+              <span class="category-count">1 篇文章</span>
+            </div>
+          </div>
+          <div class="category-card-preview">
+            
+              <div class="preview-post">
+                <span class="preview-dot">•</span>
+                <span class="preview-title">test file</span>
+              </div>
+            
+          </div>
+        </a>
+      
+        <a href="/categories/%E6%8A%80%E6%9C%AF/" class="category-card">
+          <div class="category-card-content">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="category-card-title">技术</h3>
+            <div class="category-card-stats">
+              <span class="category-count">2 篇文章</span>
+            </div>
+          </div>
+          <div class="category-card-preview">
+            
+              <div class="preview-post">
+                <span class="preview-dot">•</span>
+                <span class="preview-title">CSS Grid 布局完全指南</span>
+              </div>
+            
+              <div class="preview-post">
+                <span class="preview-dot">•</span>
+                <span class="preview-title">JavaScript 异步编程指南</span>
+              </div>
+            
+          </div>
+        </a>
+      
+        <a href="/categories/%E6%8A%80%E6%9C%AF-%E5%89%8D%E7%AB%AF-React/" class="category-card">
+          <div class="category-card-content">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="category-card-title">技术/前端/React</h3>
+            <div class="category-card-stats">
+              <span class="category-count">1 篇文章</span>
+            </div>
+          </div>
+          <div class="category-card-preview">
+            
+              <div class="preview-post">
+                <span class="preview-dot">•</span>
+                <span class="preview-title">React Hooks 深入理解</span>
+              </div>
+            
+          </div>
+        </a>
+      
+        <a href="/categories/%E6%8A%80%E6%9C%AF-%E5%89%8D%E7%AB%AF-Vue/" class="category-card">
+          <div class="category-card-content">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="category-card-title">技术/前端/Vue</h3>
+            <div class="category-card-stats">
+              <span class="category-count">1 篇文章</span>
+            </div>
+          </div>
+          <div class="category-card-preview">
+            
+              <div class="preview-post">
+                <span class="preview-dot">•</span>
+                <span class="preview-title">Vue 3 Composition API 指南</span>
+              </div>
+            
+          </div>
+        </a>
+      
+        <a href="/categories/%E6%8A%80%E6%9C%AF-%E5%90%8E%E7%AB%AF-Node-js/" class="category-card">
+          <div class="category-card-content">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="category-card-title">技术/后端/Node.js</h3>
+            <div class="category-card-stats">
+              <span class="category-count">1 篇文章</span>
+            </div>
+          </div>
+          <div class="category-card-preview">
+            
+              <div class="preview-post">
+                <span class="preview-dot">•</span>
+                <span class="preview-title">Node.js Express 框架入门</span>
+              </div>
+            
+          </div>
+        </a>
+      
+        <a href="/categories/%E6%8A%80%E6%9C%AF-%E5%90%8E%E7%AB%AF-Python/" class="category-card">
+          <div class="category-card-content">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="category-card-title">技术/后端/Python</h3>
+            <div class="category-card-stats">
+              <span class="category-count">1 篇文章</span>
+            </div>
+          </div>
+          <div class="category-card-preview">
+            
+              <div class="preview-post">
+                <span class="preview-dot">•</span>
+                <span class="preview-title">Django Web 开发基础</span>
+              </div>
+            
+          </div>
+        </a>
+      
+        <a href="/categories/%E6%8A%80%E6%9C%AF-%E8%BF%90%E7%BB%B4-Docker/" class="category-card">
+          <div class="category-card-content">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="category-card-title">技术/运维/Docker</h3>
+            <div class="category-card-stats">
+              <span class="category-count">1 篇文章</span>
+            </div>
+          </div>
+          <div class="category-card-preview">
+            
+              <div class="preview-post">
+                <span class="preview-dot">•</span>
+                <span class="preview-title">Docker 容器化技术入门</span>
+              </div>
+            
+          </div>
+        </a>
+      
+        <a href="/categories/%E7%94%9F%E6%B4%BB/" class="category-card">
+          <div class="category-card-content">
+            <div class="category-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <h3 class="category-card-title">生活</h3>
+            <div class="category-card-stats">
+              <span class="category-count">1 篇文章</span>
+            </div>
+          </div>
+          <div class="category-card-preview">
+            
+              <div class="preview-post">
+                <span class="preview-dot">•</span>
+                <span class="preview-title">如何提高工作效率</span>
+              </div>
+            
+          </div>
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+  </main>
+  
+  <!-- Music Player (only on home page) -->
+  
+  
+  <!-- Scripts -->
+  
+<script src="/js/main.js"></script>
+
+  
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+    </svg>
+  </button>
+</body>
+</html>
